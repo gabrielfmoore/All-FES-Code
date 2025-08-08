@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FES Recreate</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <nav>
+        <img src="./Assets (original)/FES.svg" alt="" class="fes-logo" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div class="home__description">
+            <h1>Best place to learn Frontend</h1>
+            <p class="small-text">
+              Go from being an absolute beginner to being a pro with a
+              simplified process.
+            </p>
+            <button>Start now</button>
+          </div>
+          <figure>
+            <img src="./Assets (original)/laptop.png" alt="Homepage image" />
+          </figure>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptate quam dolorem vel vero atque incidunt officia dolor
+                architecto deserunt id, vitae praesentium porro nobis.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, cumque. Quisquam, voluptatum. Doloribus, cumque.
+                Quisquam, voluptatum.
+              </p>
+            </div>
+            <figure class="about__image--wrapper">
+              <img src="./Assets (original)/about.jpg" alt="About image" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="discord" class="discord">
+        <h2>Discord</h2>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__image--wrapper">
+              <img src="./Assets (original)/discord.png" alt="Discord image" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Join our Discord community to connect with other learners and
+                instructors, share your progress, and get help when you need it.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias quae porro, possimus eius eum a sint voluptates quidem
+                minus libero, soluta, consequuntur fugit blanditiis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <span>Name</span>
+          <input type="Name" placeholder="Name" required />
+          <span>Email</span>
+          <input type="email" placeholder="Your Email" required />
+          <span>Message</span>
+          <textarea type="text" placeholder="Your Message" required></textarea>
+          <button type="submit">Contact Us!</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer2">
+      <img src="./Assets (original)/FES.svg" alt="" class="footer__logo" />
+      <div class="footer-links">
+        <a class="footer-link" href="#about">About</a>
+        <a class="footer-link" href="#discord">Discord</a>
+        <a class="footer-link" href="#contact">Contact</a>
+        <a class="footer-link" href="#courses">Courses</a>
+      </div>
+      <p>Copyright Frontend Simplified</p>
+    </footer>
+  </body>
 </html>
